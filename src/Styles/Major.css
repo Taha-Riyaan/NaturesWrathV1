@@ -1,0 +1,37 @@
+.MajorTitle h1 {
+    margin: 15px;
+    
+}
+
+.majorContainer {
+    display: grid;
+    background-color: white;
+    width: 900px;
+    height: fit-content;
+    border-radius: 10px ;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.minorContainer {
+    display: inline-flex;
+
+}
+
+.selector {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 3em 10px;
+    padding: 10px;
+}
+
+.selector:hover {
+    border: 1px solid #4a6741;
+    border-radius: 10px;
+}
+
+.select2 {
+    margin: 10px;
+}

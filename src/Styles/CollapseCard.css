@@ -1,0 +1,35 @@
+.Major-card {
+    width: fit-content; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+    margin: 20px;
+}
+
+.Major-card-image {
+    width: 100%;
+    height: auto; 
+    border-bottom: 1px solid #ccc;
+}
+
+.Major-card-title {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Major-hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.Major-card-extra {
+    padding: 10px;
+    font-size: 14px;
+}
+  

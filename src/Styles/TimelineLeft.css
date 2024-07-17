@@ -1,0 +1,57 @@
+.dot2 {
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: #126DA0;
+    border-radius: 50%;
+}
+
+.line {
+  height:200px;
+  width: 10px;
+  margin: 0 5px; 
+  background-color: #126DA0;
+  border-radius: 10px;
+}
+
+.span {
+  height: 100%;
+  align-items: flex-end;
+  display: inline-block; 
+  position: absolute;
+  right:50%;
+}
+
+.content2 {
+    height: 230px; 
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    background-color: white;
+    border-radius: 10px;
+}
+
+.textbox {
+  height: fit-content;
+  width: fit-content;
+  display: inline-block; 
+  border: 1px solid #22311d;
+  width:465px;
+  word-wrap: break-word;
+  text-align: right;
+  margin:10px;
+  position:absolute;
+
+}
+
+.textbox h2 {
+    color: #0F5780;
+    margin: 5px;
+}
+
+.textbox p {
+    color: #0F5780;
+    margin-right: 5px;
+}
