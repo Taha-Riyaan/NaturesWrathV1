@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NaturesWrathV1/static/css/main.dfe40a8a.css",
+    "main.js": "/NaturesWrathV1/static/js/main.4f2bffc2.js",
+    "static/js/453.eed084f0.chunk.js": "/NaturesWrathV1/static/js/453.eed084f0.chunk.js",
+    "index.html": "/NaturesWrathV1/index.html",
+    "main.dfe40a8a.css.map": "/NaturesWrathV1/static/css/main.dfe40a8a.css.map",
+    "main.4f2bffc2.js.map": "/NaturesWrathV1/static/js/main.4f2bffc2.js.map",
+    "453.eed084f0.chunk.js.map": "/NaturesWrathV1/static/js/453.eed084f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfe40a8a.css",
+    "static/js/main.4f2bffc2.js"
+  ]
+}
