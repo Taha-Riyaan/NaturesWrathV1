@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './QuizComp.css'
 
-import {avalanche} from './Quizzes/Avalanche'
+import { avalanche} from './Quizzes/Avalanche'
 import { earthquake } from './Quizzes/Earthquake'
 import { flood } from './Quizzes/Flood'
 import { hurricane } from './Quizzes/Hurricane'

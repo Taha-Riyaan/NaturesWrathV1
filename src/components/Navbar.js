@@ -15,7 +15,6 @@ const Navbar = () => {
           </div>
         </div>            
         <a href="/Major">Major Disasters</a>
-        <a href="/Safety" >Safety Information</a>
           
       </div>
     </nav>

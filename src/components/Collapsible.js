@@ -21,7 +21,7 @@ const Collapsible =(child)=>{
 
             <div className="btn1" >
                 <div className="spacebtw" onClick={toggle}>
-                    <h2>{child.title}</h2>
+                    <h2>{child.title0}</h2>
                     {open ? <img src={minus} alt="+" className="icon" /> : <img src={plus} alt="+" className="icon" />}
                 </div>
                 
@@ -45,23 +45,22 @@ const Collapsible =(child)=>{
                         </div>
                     ) : (
                         <div>
-                            <h2>Severity</h2>
-                            <h4>short explanation</h4>
-                            {/*image of scale */}
-                            <h2>Recommended Shelter</h2>
-                            <h4>short explanation</h4>
-                            <h2>Preparation</h2>
-                            <h4>short explanation</h4>
-                            <h2>Areas of Occurance</h2>
-                            <h4>provinces in which these happen</h4>
-                            <h2>Government of Canada Weblink?</h2>
+                            <h4>{child.para}</h4>
+                            <h2>{child.title2}</h2>
+                            <h4>{child.para2}</h4>
+                            <h2>{child.title3}</h2>
+                            <h4>{child.para3}</h4>
+                            
 
                             <div className="quizContainer">
-                                <Quiz title={child.title} />
+                                <Quiz title={child.title} /> 
                             </div>
+
+                            
                             
                         </div>
                     )}
+                    
 
             </div>
             )}
@@ -72,3 +71,17 @@ const Collapsible =(child)=>{
     )
 }
 export default Collapsible;
+
+
+/*
+<h2>Severity</h2>
+<h4>short explanation</h4>
+{image of scale } 
+<h2>Recommended Shelter</h2>
+<h4>short explanation</h4>
+<h2>Preparation</h2>
+<h4>short explanation</h4>
+<h2>Areas of Occurance</h2>
+<h4>provinces in which these happen</h4>
+<h2>Government of Canada Weblink?</h2>
+*/
