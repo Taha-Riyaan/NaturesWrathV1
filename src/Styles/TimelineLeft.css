@@ -38,17 +38,19 @@
   width: fit-content;
   display: inline-block; 
   border: 1px solid #22311d;
-  width:465px;
+  width:445px;
   word-wrap: break-word;
   text-align: right;
   margin:10px;
   position:absolute;
+  padding: 10px;
 
 }
 
 .textbox h2 {
     color: #0F5780;
     margin: 5px;
+    margin-bottom: 10px;
 }
 
 .textbox p {

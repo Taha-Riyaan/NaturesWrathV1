@@ -4,10 +4,48 @@ import plus from "../Images/plus.png";
 import minus from "../Images/minus.png";
 import Quiz from './Quiz';
 
+import { avalanche} from '../InfoFiles/Avalanche'
+import { earthquake } from '../InfoFiles/Earthquake'
+import { flood } from '../InfoFiles/Flood'
+import { hurricane } from '../InfoFiles/Hurricane'
+import { tornado } from '../InfoFiles/tornado'
+import { tsunami } from '../InfoFiles/Tsunami'
+import { wildfire } from '../InfoFiles/Wildfire'
+
 
 
 
 const Collapsible =(child)=>{
+    let infoo;
+
+    switch (child.title) {
+        case 'avalanche': 
+            infoo = avalanche 
+            break;
+        case 'earthquake': 
+            infoo = earthquake
+            break;
+        case 'flood': 
+            infoo = flood
+            break;
+        case 'hurricane': 
+            infoo = hurricane
+            break;
+        case 'tornado': 
+            infoo = tornado
+            break;
+        case 'tsunami': 
+            infoo = tsunami
+            break;
+        case 'wildfire': 
+            infoo = wildfire
+            break;
+    }
+
+    const { info } = infoo
+    const { general, areasOfOccurance, safetyMeasures } = info[0]
+
+
     const [open, setOPen] = useState(false);
 
     const toggle = () => {
@@ -36,7 +74,9 @@ const Collapsible =(child)=>{
 
 
                     {child.check ? (
+                        //not in use atm
                         <div>
+                            
                             <h4>{child.para}</h4>
                             <h2>{child.title2}</h2>
                             <h4>{child.para2}</h4>
@@ -44,16 +84,20 @@ const Collapsible =(child)=>{
                             <h4>{child.para3}</h4>
                         </div>
                     ) : (
+                        //in use atm
                         <div>
-                            <h4>{child.para}</h4>
-                            <h2>{child.title2}</h2>
-                            <h4>{child.para2}</h4>
-                            <h2>{child.title3}</h2>
-                            <h4>{child.para3}</h4>
+                            <h4>{general}</h4>
+                            <h2>Areas of Occurance</h2>
+                            <h4>{areasOfOccurance}</h4>
+                            <h2>Safety Measures</h2>
+                            <h4>{safetyMeasures}</h4>
                             
 
                             <div className="quizContainer">
-                                <Quiz title={child.title} /> 
+                                <Quiz 
+                                    title={child.title} 
+                                    title0={child.title0}
+                                /> 
                             </div>
 
                             

@@ -22,7 +22,7 @@ const Collapsible = (child) => {
             <div className="quizContainer">
                 <div className="btn1-quiz">
                     <div className="spacebtw-quiz" onClick={toggle}>
-                        <h2>Disaster 1 Quiz</h2>
+                        <h2>{child.title0} Quiz</h2>
                         <div className="progressBar-quiz"></div>
                     </div>
 

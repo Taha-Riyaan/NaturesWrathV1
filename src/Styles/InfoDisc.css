@@ -1,0 +1,13 @@
+.infodisc li {
+    padding: 5px;
+}
+
+.infodisc p {
+    font-size: large;
+}
+
+.infodisc {
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+}
