@@ -38,10 +38,6 @@ const Timeline = () => {
                     title="Cascadia Earthquake, British Columbia | 1700" 
                     para="The Cascadia earthquake occurred along with the Cascadia subduction zone in late January of 1700, with an estimated magnitude of 8.7 to 9.2, causing where 4400 to 10400 casualties. This was so devastation to so many. "
                 />
-                <TimelineRight
-                    title="Tseax Cone Eruption, British Columbia | 1690" 
-                    para="Canada’s deadliest volcanic eruption killed 2,000 Indigenous peoples. It was the worst known geophysical disaster in our country’s history. The eruption produced a plume of toxic smoke and a river of lava that destroyed two villages and suffocated thousands of people. "
-                />
                 
             </div>
         </center>

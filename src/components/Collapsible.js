@@ -4,13 +4,13 @@ import plus from "../Images/plus.png";
 import minus from "../Images/minus.png";
 import Quiz from './Quiz';
 
-import { avalanche} from '../InfoFiles/Avalanche'
-import { earthquake } from '../InfoFiles/Earthquake'
-import { flood } from '../InfoFiles/Flood'
-import { hurricane } from '../InfoFiles/Hurricane'
-import { tornado } from '../InfoFiles/tornado'
-import { tsunami } from '../InfoFiles/Tsunami'
-import { wildfire } from '../InfoFiles/Wildfire'
+import { avalanche} from '../InfoFiles/Types/Avalanche'
+import { earthquake } from '../InfoFiles/Types/Earthquake'
+import { flood } from '../InfoFiles/Types/Flood'
+import { hurricane } from '../InfoFiles/Types/Hurricane'
+import { tornado } from '../InfoFiles/Types/tornado'
+import { tsunami } from '../InfoFiles/Types/Tsunami'
+import { wildfire } from '../InfoFiles/Types/Wildfire'
 
 
 
